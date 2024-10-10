@@ -20,7 +20,9 @@ Mas e agora, o que é "*"?
 
 Pegando o código ".list .item:hover .item" como referência,
 a função do "*" é buscar o item que está logo à direita do .item:hover. Um atalho, para ser mais resumido.
+
 Vamos supor que você esteja fazendo o código CSS, mas não sabe qual é o elemento que vem próximo do .item:hover, então você coloca o coringa "*".
+
 O interessante desse elemento é que você pode adicionar quantos elementos você quiser, como está no código abaixo.
 > .list .item:hover + * + * + * 
 
