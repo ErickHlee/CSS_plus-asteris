@@ -1,6 +1,8 @@
 body {
-    background-image: url("src/background-bonito-com-estilo-diferente-e-variante-diferente_1221760-11.avif");
-    background-size: repeat;
+    background-color: black; /* Cor de fundo preta */
+    background-image: 
+        repeating-linear-gradient(0deg, transparent, transparent 20px, #FFFFFF 20px, #FFFFFF 21px),
+        repeating-linear-gradient(90deg, transparent, transparent 20px, #FFFFFF 20px, #FFFFFF 21px);
 }
 
 .list {
